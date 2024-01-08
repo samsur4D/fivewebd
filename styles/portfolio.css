@@ -107,8 +107,15 @@ nav a {
 
 /* main section styles */
 
-
-
+main{
+    max-width: 1140;
+    margin: 0 auto;
+}
+.aboutinfo{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
 
 
 
