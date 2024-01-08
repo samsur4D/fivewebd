@@ -107,9 +107,10 @@ nav a {
 
 /* main section styles */
 
-main section{
+main section {
     margin-top: 130px;
 }
+
 main {
     max-width: 1140;
     margin: 0 auto;
@@ -138,7 +139,7 @@ main {
 
 }
 
-.skill{
+.skill {
     padding: 30px;
     border-radius: 5px;
     background: #FFF;
@@ -175,11 +176,81 @@ main {
     font-size: 18px;
     margin: 50px 50px;
 }
-.resection{
+
+.resection {
     text-align: center;
+    font-size: 100px;
+    text-decoration: underline;
 }
-.recolumn-title{
+
+.ggg {
+    color: #FD6E0A;
+}
+
+.recolumn-title {
     color: #757575;
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 10px;
 }
+
+.recontainer,
+.reitemdes {
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+    max-width: 30px 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.download{border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    padding: 18px 30px;
+    justify-content: center;
+    text-align: center;
+}
+    .download-cv{
+        text-align: center;
+    }
+    footer{
+        display: flex;
+        background-color: bisque;
+        padding: 130px 200px;
+        margin-top: 100px;
+    }
+    .footer-column{
+        width: 50%;
+        gap: 100px;
+    }
+   .contact input[type="text"],textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    color: #757575;
+    border-radius: 6px;
+    border: 0px;
+    width: 100%;
+   } 
+   .social-link { gap: 100px;
+    text-align: center;}
+
+    .social-link a{
+        margin-right: 70px;
+    }
+     
+   
+    
+   .submit-button{
+    background-color:rgb(225, 97, 51);
+    color:white;
+   }
+   .contact input
+    .section-des{
+        margin-right: 50px;
+    }
