@@ -193,6 +193,11 @@ main {
     font-weight: 700;
     margin-bottom: 10px;
 }
+.design{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 .recontainer,
 .reitemdes {
